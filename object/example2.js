@@ -6,9 +6,8 @@ const book = {
   available: true,
 };
 
-
 const book2 = {}
-for (let key in book) {
+for (key in book) {
   book2[key] = book[key];
 }
 console.log(book2);
